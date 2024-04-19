@@ -6,8 +6,17 @@ Code related to the paper titled "[Harmonic decomposition of spacetime (HADES) f
 
 The Harmonic Decomposition of Spacetime (HADES) framework that characterises how different harmonic modes defined in space are expressed over time. Here applied to the DMT dataset
 
+## Folder descriptions
+
+1.`data/`: folder containing data for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+2.`utils/`: folder containing matlab functions for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+3.`results/`: folder containing various outputs for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+4.`figures/`: folder containing figures for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+
 ## File descriptions
 
+1. `p0_HCP_denseFC_2_vertices.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+1. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
 1. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
 
 ## Installation
