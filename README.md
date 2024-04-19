@@ -25,6 +25,7 @@ To derive the Functional Harmonics the HCP dataset was used. As the file size ex
 ## Compatibility
 
 ## Citation
+[Article] J. Vohryzek,J. Cabral, C. Timmermann, S. Atasoy, L. Roseman, D.J. Nutt, R.L. Carhart-Harris, G. Deco, M.L. Kringelbach, The flattening of spacetime hierarchy of the DMT brain state is characterised by harmonic decomposition of spacetime (HADES) framework, NSR (2023) (DOI: [10.1093/nsr/nwae124]([https://www.biorxiv.org/content/10.1101/2023.08.20.554019v1.abstract](https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwae124/7640873)](https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwae124/7640873))
 
 [Preprint] J. Vohryzek,J. Cabral, C. Timmermann, S. Atasoy, L. Roseman, D.J. Nutt, R.L. Carhart-Harris, G. Deco, M.L. Kringelbach, Harmonic decomposition of spacetime (HADES) framework characterises the spacetime hierarchy of the DMT brain state, bioRxiv (2023) (DOI: [10.1101/2023.08.20.554019]([https://www.biorxiv.org/content/10.1101/2023.08.20.554019v1.abstract](https://www.biorxiv.org/content/10.1101/2023.08.20.554019v1.abstract))
 
