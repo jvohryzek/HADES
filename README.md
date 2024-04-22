@@ -15,13 +15,13 @@ The Harmonic Decomposition of Spacetime (HADES) framework that characterises how
 
 ## File descriptions
 
-1. `p0_HCP_denseFC_2_vertices.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
-2. `p1_HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
-3. `p2_HADES_plotting_basis.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
-4. `p3_HADES_DMT_FMRI_main_projectFH.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
-5. `p4_HADES_DMT_spatiotemporal_analysis.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
-6. `p5_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
-7. `p6_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+1. `p0_HCP_denseFC_2_vertices.m`: MATLAB script to load the dense FC
+2. `p1_HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB scripts to run the laplace decomposition on the dense FC
+3. `p2_HADES_plotting_basis.m`: MATLAB script to plot the functional harmonics on the cortical surface
+4. `p3_HADES_DMT_FMRI_main_projectFH.m`: MATLAB script to project functional harmonics onto the timeseries
+5. `p4_HADES_DMT_spatiotemporal_analysis.m`: MATLAB script to calculate the spatio-temporal analysis
+6. `p5_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to calculate dynamic analysis
+7. `p6_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
 
 1. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
 1. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
