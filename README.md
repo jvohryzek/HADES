@@ -8,10 +8,10 @@ The Harmonic Decomposition of Spacetime (HADES) framework that characterises how
 
 ## Folder descriptions
 
-1.`data/`: folder containing data for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
-2.`utils/`: folder containing matlab functions for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
-3.`results/`: folder containing various outputs for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
-4.`figures/`: folder containing figures for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+1. `data/`: folder containing data for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+2. `utils/`: folder containing matlab functions for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+3. `results/`: folder containing various outputs for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and
+4. plotting`figures/`: folder containing figures for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
 
 ## File descriptions
 
