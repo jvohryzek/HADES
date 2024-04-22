@@ -2,7 +2,7 @@
 
 ![cover](HADES_front_github.png)
 
-Code related to the paper titled "[Harmonic decomposition of spacetime (HADES) framework characterises the spacetime hierarchy of the DMT brain state](https://www.biorxiv.org/content/10.1101/2023.08.20.554019v1.abstract)"
+Code related to the paper titled "[The flattening of spacetime hierarchy of the DMT brain state is characterised by harmonic decomposition of spacetime (HADES) framework]((https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwae124/7640873))"
 
 The Harmonic Decomposition of Spacetime (HADES) framework that characterises how different harmonic modes defined in space are expressed over time. Here applied to the DMT dataset
 
@@ -44,7 +44,8 @@ Install SPM12 and load the module to matlab.
 Some MATLAB-based scripts rely on external packages. Copies are stored in utils/ for version compatibility. Visit the provided links for detailed information and support.
 gifti
 cifti
-Atasoy et al. scripts based on papers on connectome harmonics. [Atasoy2016](https://www.nature.com/articles/ncomms10340),[Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0),[Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009)
+spider plots - from Matlab repository - [spider_plots](https://uk.mathworks.com/matlabcentral/fileexchange/59561-spider_plot)
+Atasoy et al. scripts based on papers on connectome harmonics. ([Atasoy2016](https://www.nature.com/articles/ncomms10340), [Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0), [Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009))
 ## Compatibility
 Codes are tested on MATLAB versions R2023b.
 
