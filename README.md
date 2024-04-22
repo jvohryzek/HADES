@@ -40,19 +40,11 @@ The original empirical data stem from the Human Connectome Project. Refer to the
 ## Dependencies
 Before running demo_eigenmode_calculation.sh, surface_eigenmodes.py, or volume_eigenmodes.py:
 
-Install FreeSurfer and load the module for HPC systems.
-Install Connectome Workbench and load the module for HPC systems.
-Install Gmsh and load the module for HPC systems.
-Install these Python libraries (via pip): lapy(v1.0.0), nibabel, and brainspace.
-Ensure you have these common Python libraries: numpy, scipy, os, argparse, subprocess.
-Some MATLAB-based scripts rely on external packages. Copies are stored in functions_matlab/ for version compatibility. Visit the provided links for detailed information and support.
-External Packages:
-
+Install SPM12 and load the module to matlab.
+Some MATLAB-based scripts rely on external packages. Copies are stored in utils/ for version compatibility. Visit the provided links for detailed information and support.
 gifti
 cifti
-cbrewer (Note: The repository uses an older version, despite the link pointing to cbrewer2.)
-Stuart Oldham's repository for surface ROI boundary drawing.
-Atasoy et al. papers on connectome harmonics. [Atasoy2016](https://www.nature.com/articles/ncomms10340),[Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0),[Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009)
+Atasoy et al. scripts based on papers on connectome harmonics. [Atasoy2016](https://www.nature.com/articles/ncomms10340),[Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0),[Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009)
 ## Compatibility
 Codes are tested on MATLAB versions R2023b.
 
