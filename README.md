@@ -40,17 +40,15 @@ The original empirical data stem from the Human Connectome Project. Refer to the
 ## Dependencies
 Relevant toolboxes and repositories. Some MATLAB-based scripts rely on external packages. Copies are stored in utils/ for version compatibility. Visit the provided links for detailed information and support.
 
-Install SPM12 and load the module to matlab.
+SPM12        - [Statistical Parametric Mapping Toolbox](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
 
-SPM12 = [Statistical Parametric Mapping Toolbox](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
+gifti        - [Freesurfer Toolbox](https://surfer.nmr.mgh.harvard.edu/fswiki/GIfTI)
 
-gifti - [Freesurfer Toolbox](https://surfer.nmr.mgh.harvard.edu/fswiki/GIfTI)
+cifti        - [Human Connectome Workbench](https://www.humanconnectome.org/software/workbench-command/-cifti-help)
 
-cifti - [Human Connectome Workbench](https://www.humanconnectome.org/software/workbench-command/-cifti-help)
+spider plots - [spider_plots](https://uk.mathworks.com/matlabcentral/fileexchange/59561-spider_plot)
 
-spider plots - from Matlab repository - [spider_plots](https://uk.mathworks.com/matlabcentral/fileexchange/59561-spider_plot)
-
-Atasoy et al. scripts based on papers on connectome harmonics. ([Atasoy2016](https://www.nature.com/articles/ncomms10340), [Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0), [Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009))
+Atasoy et al. scripts based on papers on Connectome Harmonics. ([Atasoy2016](https://www.nature.com/articles/ncomms10340), [Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0), [Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009))
 
 Cabral et al. scripts based on papers on Leadin Eigenvector Analysis (LEiDA). ([Cabral2017](https://www.nature.com/articles/s41598-017-05425-7), [Vohryzek2020](https://www.frontiersin.org/articles/10.3389/fnsys.2020.00020/full))
 
