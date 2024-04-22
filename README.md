@@ -10,28 +10,51 @@ The Harmonic Decomposition of Spacetime (HADES) framework that characterises how
 
 1. `data/`: folder containing data for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
 2. `utils/`: folder containing matlab functions for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
-3. `results/`: folder containing various outputs for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and
-4. plotting`figures/`: folder containing figures for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+3. `results/`: folder containing various outputs for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+4. `figures/`: folder containing figures for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
 
 ## File descriptions
 
 1. `p0_HCP_denseFC_2_vertices.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+2. `p1_HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+3. `p2_HADES_plotting_basis.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+4. `p3_HADES_DMT_FMRI_main_projectFH.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+5. `p4_HADES_DMT_spatiotemporal_analysis.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+6. `p5_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+7. `p6_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to load the four quadrants of dense FC connectivity and combine it to vertex representation
+
 1. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
 1. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
 
 ## Installation
-The repository serves as standalone for the HADES derivation
-Consult the documentiaton for further guidance
+Simply download the repository to get started. Inside each code file, you'll find comments and documentation to guide you through usage.
+The repository serves as standalone for the HADES method. Please Consult the documentiaton for further guidance
 
 ## Downloading data
 Due to their privacy the DMT data is available upon request from the original authors of the experiment.
-To derive the Functional Harmonics the HCP dataset was used. As the file size exceeds github limit we share OSF repository
+To derive the Functional Harmonics, the HCP dataset was used. As the file size exceeds github limit we share OSF repository where the additional files can be accessed.
+Important: Certain parts of generate_paper_figures.m and generate_paper_suppfigures.m rely on this OSF-hosted data. Ensure it's saved in the correct folders for smooth script execution.
 
 ## Original data
-
+The original empirical data stem from the Human Connectome Project. Refer to the provided link for comprehensive access, licensing, and usage terms.
 ## Dependencies
+Before running demo_eigenmode_calculation.sh, surface_eigenmodes.py, or volume_eigenmodes.py:
 
+Install FreeSurfer and load the module for HPC systems.
+Install Connectome Workbench and load the module for HPC systems.
+Install Gmsh and load the module for HPC systems.
+Install these Python libraries (via pip): lapy(v1.0.0), nibabel, and brainspace.
+Ensure you have these common Python libraries: numpy, scipy, os, argparse, subprocess.
+Some MATLAB-based scripts rely on external packages. Copies are stored in functions_matlab/ for version compatibility. Visit the provided links for detailed information and support.
+External Packages:
+
+gifti
+cifti
+cbrewer (Note: The repository uses an older version, despite the link pointing to cbrewer2.)
+Stuart Oldham's repository for surface ROI boundary drawing.
+Atasoy et al. papers on connectome harmonics. [Atasoy2016](https://www.nature.com/articles/ncomms10340),[Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0),[Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009)
 ## Compatibility
+Codes are tested on MATLAB versions R2023b.
 
 ## Citation
 [Article] J. Vohryzek,J. Cabral, C. Timmermann, S. Atasoy, L. Roseman, D.J. Nutt, R.L. Carhart-Harris, G. Deco, M.L. Kringelbach, The flattening of spacetime hierarchy of the DMT brain state is characterised by harmonic decomposition of spacetime (HADES) framework, NSR (2023) (DOI: [10.1093/nsr/nwae124](https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwae124/7640873))
