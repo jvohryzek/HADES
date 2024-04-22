@@ -38,15 +38,22 @@ Important: Certain parts of generate_paper_figures.m and generate_paper_suppfigu
 ## Original data
 The original empirical data stem from the Human Connectome Project. Refer to the provided link for comprehensive access, licensing, and usage terms.
 ## Dependencies
-Before running demo_eigenmode_calculation.sh, surface_eigenmodes.py, or volume_eigenmodes.py:
+Relevant toolboxes and repositories. Some MATLAB-based scripts rely on external packages. Copies are stored in utils/ for version compatibility. Visit the provided links for detailed information and support.
 
 Install SPM12 and load the module to matlab.
-Some MATLAB-based scripts rely on external packages. Copies are stored in utils/ for version compatibility. Visit the provided links for detailed information and support.
-gifti
-cifti
+
+SPM12 = [Statistical Parametric Mapping Toolbox](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
+
+gifti - [Freesurfer Toolbox](https://surfer.nmr.mgh.harvard.edu/fswiki/GIfTI)
+
+cifti - [Human Connectome Workbench](https://www.humanconnectome.org/software/workbench-command/-cifti-help)
+
 spider plots - from Matlab repository - [spider_plots](https://uk.mathworks.com/matlabcentral/fileexchange/59561-spider_plot)
+
 Atasoy et al. scripts based on papers on connectome harmonics. ([Atasoy2016](https://www.nature.com/articles/ncomms10340), [Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0), [Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009))
-Cabral et al. scripts based on papers on Leadin Eigenvector Analysis (LEiDA). ([Cabral2017](https://www.nature.com/articles/s41598-017-05425-7), [Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0), [Vohryzek2020](https://www.frontiersin.org/articles/10.3389/fnsys.2020.00020/full))
+
+Cabral et al. scripts based on papers on Leadin Eigenvector Analysis (LEiDA). ([Cabral2017](https://www.nature.com/articles/s41598-017-05425-7), [Vohryzek2020](https://www.frontiersin.org/articles/10.3389/fnsys.2020.00020/full))
+
 ## Compatibility
 Codes are tested on MATLAB versions R2023b.
 
