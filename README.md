@@ -21,11 +21,10 @@ The Harmonic Decomposition of Spacetime (HADES) framework that characterises how
 3. `p3_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to calculate dynamic analysis
 4. `p4_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
 
-## Auxilary File descriptions
-1. `HCP_denseFC_2_vertices.m`: MATLAB script to load the dense FC
-2. `HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB scripts to run the laplace decomposition on the dense FC
-3. `HADES_plotting_basis.m`: MATLAB script to plot the functional harmonics on the cortical surface
-4. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
+## Supplementary file descriptions
+1. `s1_HCP_denseFC_2_vertices.m`: MATLAB script to load the dense FC
+2. `s2_HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB scripts to run the laplace decomposition on the dense FC
+3. `s3_HADES_plotting_basis.m`: MATLAB script to plot the functional harmonics on the cortical surface
 
 ## Installation
 Simply download the repository to get started.
