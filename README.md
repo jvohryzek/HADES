@@ -15,19 +15,23 @@ The Harmonic Decomposition of Spacetime (HADES) framework that characterises how
 
 ## File descriptions
 
-1. `p0_HCP_denseFC_2_vertices.m`: MATLAB script to load the dense FC
-2. `p1_HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB scripts to run the laplace decomposition on the dense FC
-3. `p2_HADES_plotting_basis.m`: MATLAB script to plot the functional harmonics on the cortical surface
-4. `p3_HADES_DMT_FMRI_main_projectFH.m`: MATLAB script to project functional harmonics onto the timeseries
-5. `p4_HADES_DMT_spatiotemporal_analysis.m`: MATLAB script to calculate the spatio-temporal analysis
-6. `p5_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to calculate dynamic analysis
-7. `p6_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
 
-1. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
-1. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
+1. `p1_HADES_DMT_FMRI_main_projectFH.m`: MATLAB script to project functional harmonics onto the timeseries
+2. `p2_HADES_DMT_spatiotemporal_analysis.m`: MATLAB script to calculate the spatio-temporal analysis
+3. `p3_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to calculate dynamic analysis
+4. `p4_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
+
+## Auxilary Files
+1. `HCP_denseFC_2_vertices.m`: MATLAB script to load the dense FC
+2. `HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB scripts to run the laplace decomposition on the dense FC
+3. `HADES_plotting_basis.m`: MATLAB script to plot the functional harmonics on the cortical surface
+4. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
 
 ## Installation
-Simply download the repository to get started. Inside each code file, you'll find comments and documentation to guide you through usage.
+Simply download the repository to get started. 
+
+In this following repository,
+Inside each code file, you'll find comments and documentation to guide you through usage.
 The repository serves as standalone for the HADES method. Please Consult the documentiaton for further guidance
 
 ## Downloading data
