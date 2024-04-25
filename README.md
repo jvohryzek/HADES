@@ -21,22 +21,28 @@ The Harmonic Decomposition of Spacetime (HADES) framework that characterises how
 3. `p3_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to calculate dynamic analysis
 4. `p4_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
 
-## Auxilary Files
+## Auxilary File descriptions
 1. `HCP_denseFC_2_vertices.m`: MATLAB script to load the dense FC
 2. `HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB scripts to run the laplace decomposition on the dense FC
 3. `HADES_plotting_basis.m`: MATLAB script to plot the functional harmonics on the cortical surface
 4. `DMT_FMRI_main_projectsFH`: MATLAB script to run the Functional Harmonic projections to the DMT dataset
 
 ## Installation
-Simply download the repository to get started. 
+Simply download the repository to get started.
+In order to run the code two additional files (Functional Harmonics (FHs) and projections of FHs to the DMT dataset) have to be downloaded from the OSF repository: https://osf.io/asntf/ you can find further instruction in the results folder.
 
-In this following repository,
+HADES pipeline [p1-p4].
+
+To run the code p1 uses the FHs projections on the fMRI resting-state data. The OSF repository provided the FHs projections onto the DMT dataset.
+
+For personal use the appropriate dataset FHs projections should be provided in the cifti 64k vertices format.
+
 Inside each code file, you'll find comments and documentation to guide you through usage.
 The repository serves as standalone for the HADES method. Please Consult the documentiaton for further guidance
 
 ## Downloading data
-Due to their privacy the DMT data is available upon request from the original authors of the experiment.
-To derive the Functional Harmonics, the HCP dataset was used. As the file size exceeds github limit we share OSF repository where the additional files can be accessed.
+Due to privacy the DMT data is only provided in terms of the FHs projections. The original data is available upon request from the authors of the experiment.
+To derive the Functional Harmonics, the dense functional connectome of the HCP dataset was used and can be accessed here.
 Important: Certain parts of generate_paper_figures.m and generate_paper_suppfigures.m rely on this OSF-hosted data. Ensure it's saved in the correct folders for smooth script execution.
 
 ## Original data
@@ -50,7 +56,7 @@ gifti        - [Freesurfer Toolbox](https://surfer.nmr.mgh.harvard.edu/fswiki/GI
 
 cifti        - [Human Connectome Workbench](https://www.humanconnectome.org/software/workbench-command/-cifti-help)
 
-spider plots - [spider_plots](https://uk.mathworks.com/matlabcentral/fileexchange/59561-spider_plot)
+spider plots - [Chart Development Toolbox version1.3 (Nov 2019)](https://uk.mathworks.com/matlabcentral/fileexchange/65857-chart-development-toolbox#version_history_tab)
 
 Atasoy et al. scripts based on papers on Connectome Harmonics. ([Atasoy2016](https://www.nature.com/articles/ncomms10340), [Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0), [Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009))
 
