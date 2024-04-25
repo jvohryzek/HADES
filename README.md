@@ -56,7 +56,10 @@ gifti        - [Freesurfer Toolbox](https://surfer.nmr.mgh.harvard.edu/fswiki/GI
 
 cifti        - [Human Connectome Workbench](https://www.humanconnectome.org/software/workbench-command/-cifti-help)
 
-spider plots - [Chart Development Toolbox version1.3 (Nov 2019)](https://uk.mathworks.com/matlabcentral/fileexchange/65857-chart-development-toolbox#version_history_tab)
+spider plots - [Chart Development Toolbox [version 1.3 (Nov 2019)]](https://uk.mathworks.com/matlabcentral/fileexchange/65857-chart-development-toolbox#version_history_tab)
+
+colormaps    - [othercolor](https://uk.mathworks.com/matlabcentral/fileexchange/30564-othercolor)
+
 
 Atasoy et al. scripts based on papers on Connectome Harmonics. ([Atasoy2016](https://www.nature.com/articles/ncomms10340), [Atasoy2017](https://doi.org/10.1038/s41598-017-17546-0), [Atasoy2018](https://doi.org/10.1016/bs.pbr.2018.08.009))
 
