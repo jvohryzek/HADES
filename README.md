@@ -16,10 +16,10 @@ The Harmonic Decomposition of Spacetime (HADES) framework that characterises how
 ## File descriptions
 
 
-1. `p1_HADES_DMT_FMRI_main_projectFH.m`: MATLAB script to project functional harmonics onto the timeseries
-2. `p2_HADES_DMT_spatiotemporal_analysis.m`: MATLAB script to calculate the spatio-temporal analysis
-3. `p3_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to calculate dynamic analysis
-4. `p4_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
+1. `p0_HADES_DMT_FMRI_main_projectFH.m`: MATLAB script to project functional harmonics onto the timeseries
+2. `p1_HADES_DMT_spatiotemporal_analysis.m`: MATLAB script to calculate the spatio-temporal analysis
+3. `p2_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to calculate dynamic analysis
+4. `p3_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
 
 ## Supplementary file descriptions
 1. `s1_HCP_denseFC_2_vertices.m`: MATLAB script to load the dense FC
